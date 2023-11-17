@@ -9,12 +9,12 @@
             <class name="com.dieutester.testcases.EditProductTest"/>
         </classes>
     </test>
-<!--    <test name="Regression Test Parallel 2" parallel="classes">-->
-<!--        <parameter name="browser" value="firefox"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="com.dieutester.testcases.AddNewProductTest"/>-->
-<!--            <class name="com.dieutester.testcases.EditProductTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Regression Test Parallel 2" parallel="classes">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.dieutester.testcases.AddNewProductTest"/>
+            <class name="com.dieutester.testcases.EditProductTest"/>
+        </classes>
+    </test>
 
 </suite>
